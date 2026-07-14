@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "api_keys": {
+      "type": "array",
+      "title": "API Keys",
+      "items": {
+        "type": "string"
+      },
+      "default": [],
+      "description": "平台 API 密钥列表"
+    },
+    "region": {
+      "type": "string",
+      "title": "Region",
+      "default": "global",
+      "description": "Azure Cognitive Services 区域标识"
+    }
+  },
+  "required": [
+    "api_keys"
+  ]
+}
